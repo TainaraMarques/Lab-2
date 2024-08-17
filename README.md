@@ -1,1 +1,3 @@
-# LAB2
+# Diciplina LAB2
+
+Nome: Tainara Marques
