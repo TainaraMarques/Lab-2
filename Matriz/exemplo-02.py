@@ -1,5 +1,5 @@
 def buscar_valor(matriz, valor):
-
+    numero_existe = False 
     for linha in range(len(matriz)):
         #matriz[linha][coluna] -> isso vai armazenar o valor em questão!!
         for coluna in range(len(matriz[linha])):
@@ -20,4 +20,6 @@ matriz = [
     [21,22,23,24,25]
 ]
 
-buscar_valor(matriz, 7)
+valor = int(input("digite o número que você deseja verificar: "))
+
+buscar_valor(matriz, valor)
