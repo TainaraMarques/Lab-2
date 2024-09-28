@@ -32,6 +32,9 @@ def alterar(produtos):
     if p in produtos:
         alterar = int(input("digite a quantidade à alterar: "))
         produtos[p] = alterar
+        if alterar == 0:
+            del produtos[p]
+        print(produtos)
         print(produtos)
         
         return p, alterar
