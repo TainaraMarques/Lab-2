@@ -34,6 +34,10 @@ def alterar(produtos):
         produtos[p] = alterar
         if alterar == 0:
             del produtos[p]
+<<<<<<< HEAD
+=======
+        print(produtos)
+>>>>>>> e6827f0e6419a470c2edaa05ff7e0c138fd91607
         print(produtos)
         
         return p, alterar
