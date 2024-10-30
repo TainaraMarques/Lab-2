@@ -1,3 +1,13 @@
+#4. Utilizando dicionários, crie um programa que simule um caixa eletrônico. O usuário poderá optar pelas
+#seguintes funcionalidades:
+#Depositar dinheiro – Usuário pode depositar valor ilimitado, desde que seja positivo;
+#Sacar dinheiro – Usuário pode sacar um valor limitado que deve ser validado pelo campo
+#“transaction_limit”;
+#Verificar saldo bancário – Usuário pode consultar o saldo atual;
+#Histórico de movimentações – Usuário pode consultar todas as movimentações efetuadas;
+#Sair – Usuário pode sair do sistema.
+
+
 import datetime
 
 def registrar_movimentacao(tipo, valor, conta):
@@ -79,5 +89,4 @@ def main():
         else:
             print("Opção inválida. Tente novamente.")
 
-# Executa o programa
 main()
