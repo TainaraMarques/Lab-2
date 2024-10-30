@@ -1,3 +1,5 @@
+#Crie um programa que receba através de um input o valor numérico de um mês e retorne seu 
+# valor escrito. Lembre de tratar as exceções do seu programa. Exemplo: 1 -> Janeiro, 12 -> Dezembro
 def get_month_name(dictionary):
     try:
         number = int(input("Digite o número do mês (1 a 12): "))
