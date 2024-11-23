@@ -9,7 +9,7 @@ def main():
             import ver_score
     
         elif opc == 3:
-            import teste
+            import meus_pontos
 
         elif opc == 4:
             print("==>> Obrigado por ter jogado! Saindo do sistema...")
